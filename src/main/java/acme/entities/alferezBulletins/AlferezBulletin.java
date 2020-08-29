@@ -25,13 +25,13 @@ public class AlferezBulletin extends DomainEntity {
 	private static final long	serialVersionUID	= 1L;
 
 	@NotBlank
-	@Column(length = 1024)
-	@Length(max = 1024)
+	@Column(length = 256)
+	@Length(max = 256)
 	private String				author;
 
 	@NotBlank
-	@Column(length = 4096)
-	@Length(max = 4096)
+	@Column(length = 256)
+	@Length(max = 256)
 	private String				type;
 
 	@NotBlank

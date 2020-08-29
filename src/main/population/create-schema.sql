@@ -9,7 +9,7 @@
     create table `alferez_bulletin` (
        `id` integer not null,
         `version` integer not null,
-        `author` varchar(255),
+        `author` varchar(1001),
         `moment` datetime(6),
         `type` varchar(255),
         `url` varchar(255),
